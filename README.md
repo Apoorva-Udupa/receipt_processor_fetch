@@ -8,8 +8,6 @@ This repository holds my **Python-Flask** code for a take-home exam from **Fetch
 
 2. **GET** `/receipts/{id}/points`  
    - Returns the total points associated with the specified `id`.  
-   - Returns **404** if the `id` does not exist in the dictionary of id-points pairs.
-     
 
 ## Project Structure
 - **`app.py`** — This file is within receipt_processor folder. This has the code for both GET and POST methods with points calculation. 
