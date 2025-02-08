@@ -1,2 +1,2 @@
 # receipt_processor_fetch
-Fetch Backend challenge for receipt processoing
+Fetch Backend challenge for receipt processing
