@@ -18,23 +18,23 @@ This repository holds my **Python-Flask** code for a take-home exam from **Fetch
 - **`README.md`** — discusses details of the project.
 
 ## Docker Instructions
-### 1. Build the Docker Image
+ 1. Build the Docker Image
 From the **root** directory (where the DockerFile is located), run:
 
 ```bash
  docker build -f DockerFile -t receipt-processor .
 ```
-### 2. Run the Container
+ 2. Run the Container
 ```bash
  docker run -d -p 5000:5000 --name my-receipt-app receipt-processor
 ```
-### 3. Verify the Container is running
+ 3. Verify the Container is running
 ```bash
  docker ps
 ```
 Check and test the POST and GET methods and verify points calculation. I used POSTMAN to check the POST and GET methods defined in app.py
 
-### 4. Stop the Container
+ 4. Stop the Container
 ```bash
  docker stop my-receipt-app
 ```
