@@ -46,8 +46,8 @@ Below are **step-by-step** instructions to test the Receipt Processor endpoints 
 2. **Set** the request **method** to **POST**.
 3. **Enter** the URL where the application is running with /receipts/process
 4. Go to the **Body** tab:
- - Select **raw**.
- - Choose **JSON** in the dropdown (ensuring the `Content-Type` header is `application/json`).
+    - Select **raw**.
+    - Choose **JSON** in the dropdown (ensuring the `Content-Type` header is `application/json`).
 5. **Paste** the following sample JSON receipt for testing the endpoint:
    ```json
    {
